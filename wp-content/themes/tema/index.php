@@ -57,7 +57,7 @@
                
        </div>
 
-     <div class="col-lg-3 col-lg-offset-8" class="derecha">
+     <div class="col-lg-3 " class="derecha">
 
        <h3>ANUNCIOS</h3>
        
