@@ -6,7 +6,7 @@
 
      <div class="container" class="general">
       
-     <div class="col-lg-2" class="derecha">
+     <div class="col-lg-3" class="derecha">
 
        <h3>ANUNCIOS</h3>
        
