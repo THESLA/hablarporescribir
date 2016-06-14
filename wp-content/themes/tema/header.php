@@ -3,33 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
-	<link rel="shortcut icon" href="/wp-content/themes/tema/imagenes/logo-as.png" type="image/x-icon">
+	<link rel="shortcut icon" href="http://hablarporescribir.esy.es/wp-content/themes/tema/imagenes/logo-as.png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://hablarporescribir.esy.es/wp-content/themes/tema/JS/script.js"></script>
+
 	<title><?php bloginfo(name); ?></title>
   <?php wp_head(); ?>
 </head>
+    
+   <body class="body">
 
+     <header >
+       <nav>
+         <ul>
+           <a href="http://hablarporescribir.esy.es/"><li>inicio</li></a>
+           <li>recetas</li>
+           <li>imagenes</li>
+         </ul>
+        
+<img src="http://hablarporescribir.esy.es/wp-content/themes/tema/imagenes/logo-as.png" id='logo' alt="">
 
-     <header class="menu">
-          <figure>
-               <a href="/index.php">
-                    <img src="/wp-content/themes/tema/imagenes/logo-as.png" alt="">
-               </a> 
-          </figure>
-
-          <h1>
-             <?php bloginfo(name); ?>
-          </h1>
-
-         
-
-
-          <?php include TEMPLATEPATH . "/templates/nav.php" ?>
-          
+         <ul>
+           <a href="http://hablarporescribir.esy.es/"><li>inicio</li></a>
+           <li>recetas</li>
+           <li>imagenes</li>
+         </ul>
+       </nav>
      </header>
 
-     <div class="baner">
-       <img src="/wp-content/themes/tema/imagenes/baner.jpg" alt="" class="banerImg">
-    </div>
-    <div class="degradado"></div>
+     <section id='baner'>
+       <h1><?php bloginfo(name); ?></h1>
+     </section>
 
      
