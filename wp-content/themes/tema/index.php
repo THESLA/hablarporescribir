@@ -84,7 +84,7 @@
        </div> 
    <?php endwhile; ?>
    <div class='pagination'>
-				<a href="http://alfau.esy.es/archivos/category/anuncios"> Mas Entradas </a>
+				<a href="/wp-content/themes/page"> Mas Entradas </a>
 			</div>
      <?php endif; ?>
        
