@@ -6,11 +6,11 @@
 
      <div class="container" class="general">
       
-     <div class="row" class="derecha">
+     <div class="row" class="pull-left" class="col-lg-2" class="derecha">
 
        <h3>ANUNCIOS</h3>
        
-             <div class="row" class="pull-left">
+             <div >
         <?php rewind_posts(); ?>
         <?php query_posts('order=Asc&cat=2') ?>
        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
