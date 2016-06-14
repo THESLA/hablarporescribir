@@ -22,7 +22,7 @@ define('DB_NAME', 'u935672551_misql');
 define('DB_USER', 'u935672551_james');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Jamesraveloc1');
+define('DB_PASSWORD', 'ravelo');
 
 /** MySQL hostname */
 define('DB_HOST', 'mysql.hostinger.co');
