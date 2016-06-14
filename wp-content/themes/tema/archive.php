@@ -3,10 +3,10 @@
    
 <body>
 	<section class="general2">
-		<h2 class="texto">Entradas resienstes</h2>
+		<h2 class="texto">Todas Las Entradas</h2>
        <?php
  $args=array(
-   'showposts' => -1,
+   'showposts' => 7,
  );
  $my_query = new WP_Query($args); 
 
@@ -18,7 +18,7 @@
        <div class="completo"><p><?php echo get_excerpt(310); ?></p></p></div>
           <div class="final">
           
-          <small><?php the_date(); ?></small> - <small> <?php the_time( ); ?></small>
+          <small><?php the_date(); ?></small> <small> <?php the_time( ); ?></small>
           </div>
            
           
