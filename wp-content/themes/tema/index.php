@@ -4,13 +4,13 @@
   <body>
 
 
-     <div class="general">
+     <div class="container" class="general">
       
-     <div class="derecha">
-      
+     <div class="row" class="derecha">
+
        <h3>ANUNCIOS</h3>
        
-             <div >
+             <div class="row">
         <?php rewind_posts(); ?>
         <?php query_posts('order=Asc&cat=2') ?>
        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
