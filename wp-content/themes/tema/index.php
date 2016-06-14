@@ -36,7 +36,7 @@
         
         </div>
         <div class="parrafo">
-          <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
+          <a href="<?php the_permalink(); ?>"><h5><?php the_title(); ?></h5></a>
           <p><?php echo get_excerpt(310); ?></p>
           <strong> <?php the_author(); ?></strong> -
           <small><?php the_date(); ?></small>
