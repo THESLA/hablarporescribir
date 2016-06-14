@@ -8,7 +8,7 @@
       
 
 
-     <div class="col-lg-5" class="entradas">
+     <div class="col-lg-8" class="entradas">
 
       
       <h2 class="texto">NOTICIAS</h2>
