@@ -8,7 +8,7 @@
       
 
 
-     <div class="col-lg-8" class="entradas">
+     <div class="col-lg-7" class="entradas">
 
       
       <h2 class="texto">NOTICIAS</h2>
@@ -57,7 +57,7 @@
                
        </div>
 
-     <div class="col-lg-3 " class="derecha">
+     <div class="col-lg-3 pull-right" class="derecha">
 
        <h3>ANUNCIOS</h3>
        
