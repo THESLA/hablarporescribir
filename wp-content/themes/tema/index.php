@@ -10,7 +10,7 @@
 
        <h3>ANUNCIOS</h3>
        
-             <div class="row">
+             <div class="row" class="pull-left">
         <?php rewind_posts(); ?>
         <?php query_posts('order=Asc&cat=2') ?>
        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
