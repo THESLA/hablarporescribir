@@ -11,7 +11,7 @@
        
              <div >
         <?php rewind_posts(); ?>
-        <?php query_posts('order=Asc&cat=3') ?>
+        <?php query_posts('order=Asc&cat=2') ?>
        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
        <!-- post -->
        <div class="Anuncio">
