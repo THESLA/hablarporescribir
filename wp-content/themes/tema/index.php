@@ -7,6 +7,12 @@
      <div class="general">
       
      <div class="derecha">
+      
+      <ol class="breadcrumb">
+      <li><a href="#">Home</a></li>
+       <li><a href="#">Library</a></li>
+       <li class="active">Data</li>
+      </ol>
        <h3>ANUNCIOS</h3>
        
              <div >
@@ -93,7 +99,7 @@
                
        </div>
 
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   </body>
  <?php get_footer(); ?>
  
