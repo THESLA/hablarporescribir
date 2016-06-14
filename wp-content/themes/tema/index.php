@@ -6,7 +6,7 @@
 
      <div class="container" class="general">
       
-     <div class="row" class="pull-left" class="col-lg-2" class="derecha">
+     <div class="col-lg-2" class="derecha">
 
        <h3>ANUNCIOS</h3>
        
@@ -45,7 +45,7 @@
        </div>
      </div>
 
-     <div class="entradas">
+     <div class="col-lg-5" class="entradas">
 
       
       <h2 class="texto">NOTICIAS</h2>
