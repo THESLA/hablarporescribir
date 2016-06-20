@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>MI WEB</title>
+</head>
+<body>
+	
+
+
+ <!-- bower includes-->
+ <script src="bower_components/bootstrap/dist/bootstrap.min.js"></script>	
+</body>
+</html>
